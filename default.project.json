@@ -2,27 +2,15 @@
   "name": "Roblox-Simulator",
   "tree": {
     "$className": "DataModel",
-
     "ReplicatedStorage": {
-      "Shared": {
-        "$className": "ReplicatedStorage",
-        "$path": "src/shared"
-      }
+      "Shared": { "$path": "src/shared" }
     },
-
     "ServerScriptService": {
-      "Server": {
-        "$className": "ServerScriptService",
-        "$path": "src/server"
-      }
+      "Server": { "$path": "src/server" }
     },
-
     "StarterPlayer": {
-      "$className": "StarterPlayer",
-
       "StarterPlayerScripts": {
-        "$className": "StarterPlayerScripts",
-        "$path": "src/StarterPlayerScripts"
+        "Client": { "$path": "src/client" }
       }
     },
 
